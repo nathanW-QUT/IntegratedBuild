@@ -7,6 +7,13 @@ public class Contact {
     private String email;
     private String phone;
 
+    /**
+     * Collectst the contacts first name, last name, email address and their phone no.
+     * @param firstName this is the users firstname
+     * @param lastName their last name
+     * @param email the emial address
+     * @param phone and their phone no.
+     */
     public Contact(String firstName, String lastName, String email, String phone) {
         this.firstName = firstName;
         this.lastName = lastName;
