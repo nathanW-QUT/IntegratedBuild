@@ -13,6 +13,7 @@ public class SqliteContactDAO implements IContactDAO {
         createTable();
     }
 
+
     private void createTable() {
         // Create table if not exists
         try {
@@ -30,6 +31,10 @@ public class SqliteContactDAO implements IContactDAO {
         }
     }
 
+    /**
+     * This adds contacts to the database
+     * @param contact The contact to add.
+     */
     @Override
     public void addContact(Contact contact) {
         try {
